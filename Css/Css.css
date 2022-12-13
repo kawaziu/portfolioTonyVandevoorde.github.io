@@ -39,7 +39,7 @@
 
 .Size {
 	height: 500px;
-	background-color: red;
+	background-color: gray;
 	position: relative;
 }
 .Size2 {
@@ -49,7 +49,7 @@
 }
 .Size3 {
 	height: 100px;
-	background-color: white;
+	background-color: black;
 	position: relative;
 }
 .Mid {
@@ -64,9 +64,12 @@ p {
 	text-align: center;
 	size: 10px;
 }
+.test{
+	text-align: center;
+}
 body {
 	font-family: 'Poppins';
-	background-image: url("../@Ressource/Img/background.jpg");
+	background-color: Gray;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -75,49 +78,7 @@ header {
 	height: 100vh;
 	width: 100vw;
 	background-color: black;
-	background-size: cover;
-}
-
-.navbar {
-	background-color: black;
-	padding: 50px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%
-	box-sizing: border-box;
-}
-
-.nav-links {
-}
-
-.navbar a {
-	color: white;
-} 
-
-.navbar .logo {
-	font-size: 2em;
-	font-weight: bold;
-}
-
-.navbar .nav-links ul {
-	display: flex;
-}
-
-.navbar .nav-links ul li {
-	margin: 0 25px;
-}
-
-.navbar .nav-links ul li.active a {
-	color: red;
-	font-weight: 600;
-}
-
-
-@media screen and (max-width: 1920){
-	.nav-links{
-		display: none;
-	}
+	background-size: cover
 }
 
 .contact{
@@ -126,4 +87,81 @@ header {
 
 .A {
 	color: green;
+}
+
+/*Barre nav*/
+.navbar {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+    box-sizing: border-box;
+}
+
+.nav-links {
+}
+
+
+
+.navbar a {
+    color: white;
+}
+
+
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a {
+    color: red;
+    font-weight: 600;
+}
+/*Tuto*/
+
+.center{
+	text-align: center;
+}
+
+.padding{
+	padding:70;
+	background-color: white;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.content {
+  background-color: BLACK;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
