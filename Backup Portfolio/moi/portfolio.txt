@@ -1,0 +1,8 @@
+page
+	presentation 
+	cv lettre de motivation
+	stage
+	tuto
+	compétence
+	veil technologie
+	
